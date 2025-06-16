@@ -1,14 +1,10 @@
 #login{
-    width: 100px;  /* aumenta a largura */
-    height: 40;  /* aumenta a altura */
-    background-color: rgb(235, 46, 46);
+    width: 100px;
+    height: 40px;
+    background-color: rgb(235, 84, 84);
     color: #ffffff;
-    border-radius: 20px; /* torna as bordas redondas */
-    border: none; /* tira as bordas */
-}
-
-.abc{
-    background-color: blue;
+    border-radius: 20px; /* torna as bordas redondas*/
+    border: none; 
 }
 
 #navbar{
@@ -18,66 +14,73 @@
 }
 
 #banner{
-    width: 300px;
+    
+    height: 500px;
+    width: 500px;
+
 }
-
 .texto-banner{
-
     font-size: 60px;
     font-weight: bolder;
 }
-
 .caixa-texto{
-    width: 500px;
-    background-color: beige;
+    width: 400px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
+}
 .caixa-estrutura{
     display: flex;
     flex-direction: row;
-}
 
-.titulo{
-    display: flex;
-    align-items: center;
 }
-
 #food{
-    color: red;
+ color: red;
 }
-
 #btn-get{
     width: 100px;
     height: 40px;
     background-color: rgb(235, 84, 84);
     color: #ffffff;
-    border-radius: 20px;
+    border-radius: 20px; /* torna as bordas redondas*/
     border: none;
 }
-
-.caixa-titulo{
+.caixatitulo{
     display: flex;
-    justify-content: center;
+    justify-content:center ;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: ;
+    background-color: rgb(0, 247, 255);
     width: 400px;
-}
 
-.titulo-secundario{
+}
+.titulos-secundario{
     color: red;
     font-weight: 500;
-    text-align:center;
-
 }
-
-.titulo-primario{
+.titulos-primario{
     font-weight: bolder;
     font-size: 40px;
-   
+}
+.name1{
+
+  
+    font-weight: bolder;
+    font-size: 30px;
+}
+.name2{
+
+  
+    font-weight: bolder;
+    font-size: 30px;
+}
+.name3{
+
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.caixa-imagem img {
+width: 100px;
 }
